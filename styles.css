@@ -1,0 +1,123 @@
+@media (max-width: 400px) {
+  body {
+    background-color: green;
+    margin: 0%;
+    padding: 0%;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Rectangle 1 */
+  .uppdiv {
+    position: absolute;
+    width: 100vw;
+    height: 50%;
+    color: red;
+    display: flex;
+    flex-direction: column;
+
+    background: #000000;
+    border-radius: 0px 0px 29px 29px;
+  }
+  .txt1 {
+    position: absolute;
+    width: 166px;
+    height: 34px;
+    left: 26px;
+    top: 10vw;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9vw;
+    line-height: 39px;
+
+    color: #493491;
+  }
+  .txt1 span {
+    color: white;
+  }
+  .txt2 {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    width: 85%;
+    left: 32px;
+    top: 30vw;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 6vw;
+
+    color: #ffffff;
+  }
+  .txt2 y {
+    font-size: 4vw;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  .lowdiv {
+    position: absolute;
+    width: 100vw;
+    height: 55%;
+    bottom: 0px;
+    z-index: -1;
+
+    background: url(rupinder-singh-di-U6tgthao-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .box {
+    /* Rectangle 2 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 85%;
+    height: 53%;
+    top: 25%;
+
+    background: #ffffff;
+    border: 1px solid #ededed;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 6vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box .line1 {
+    font-family: "Inter";
+
+    font-weight: 500;
+  }
+  .box1 input {
+    width: 100%;
+    height: 14vw;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+    border: 1px solid #d5cfcf;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0vw 2vw;
+  }
+  .btn button {
+    width: 100%;
+    height: 12vw;
+
+    box-sizing: border-box;
+    color: white;
+
+    background: #6138f6;
+    border: 1px solid #d5cfcf;
+    border-radius: 6px;
+  }
+}
